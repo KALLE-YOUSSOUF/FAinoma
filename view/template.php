@@ -192,27 +192,28 @@
             <div class="container">
                 <div class="row wow fadeInUp">
                     <div class="col-lg-12 text-center wow fadeInDown">
-                        <h2 class="section-heading"><strong>Contact</strong></h2>
+                        <h2 class="section-heading"><strong>Contactez-nous</strong></h2>
                     </div>
                     <div class="col-md-6">
                         <div id="message"></div>
                         <form method="post" action="sendemail.php" id="contactform">
-                            <p><input type="text" class="form-control" name="name" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name." /></p>
-                            <p><input type="text" class="form-control" name="email" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address." /></p>
-                            <p ><input type="text" class="form-control" name="website" placeholder="Your URL *" id="website" required data-validation-required-message="Please enter your web address." /></p>
-                            <p><textarea name="comments" class="form-control" id="comments" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea></p>
-                            <input class="btn btn-outlined btn-primary pull-right" type="submit" name="submit" value="Submit" />
+                            <p><input type="text" class="form-control" name="nom" placeholder="Votre nom *" id="name" required data-validation-required-message="Please enter your name." /></p>
+                            <p><input type="text" class="form-control" name="email" placeholder="Votre Email *" id="email" required data-validation-required-message="Please enter your email address." /></p>
+                            <p ><input type="text" class="form-control" name="website" placeholder="Votre URL *" id="website" required data-validation-required-message="Please enter your web address." /></p>
+                            <p><textarea name="comments" class="form-control" id="comments" placeholder="Votre Message *" required data-validation-required-message="Please enter a message."></textarea></p>
+                            <input class="btn btn-outlined btn-primary pull-right" type="submit" name="submit" value="Envoyer" />
                         </form>
                     </div>
+                
                     <div class="widget col-md-3 col-sm-6">
-                        <h4 class="widget-title"><strong>Latest</strong> Articles</h4>
+                        <h4 class="widget-title"><strong>Regoignez-nous</strong></h4>
                         <div>
                             <div class="media">
                                 <div class="pull-left">
                                     <img class="widget-img" src="assets/img/widget/widget1.jpg" alt="">
                                 </div>
                                 <div class="media-body">
-                                    <span class="media-heading"><a href="#">Blog Post A</a></span>
+                                    <span class="media-heading"><a href="#">Facebook</a></span>
                                     <small class="muted">Posted 14 April 2014</small>
                                 </div>
                             </div>
@@ -221,7 +222,7 @@
                                     <img class="widget-img" src="assets/img/widget/widget2.jpg" alt="">
                                 </div>
                                 <div class="media-body">
-                                    <span class="media-heading"><a href="#">Blog Post B</a></span>
+                                    <span class="media-heading"><a href="#">twitter</a></span>
                                     <small class="muted">Posted 14 April 2014</small>
                                 </div>
                             </div>
@@ -230,7 +231,7 @@
                                     <img class="widget-img" src="assets/img/widget/widget2.jpg" alt="">
                                 </div>
                                 <div class="media-body">
-                                    <span class="media-heading"><a href="#">Blog Post B</a></span>
+                                    <span class="media-heading"><a href="#">Instagram</a></span>
                                     <small class="muted">Posted 14 April 2014</small>
                                 </div>
                             </div>
